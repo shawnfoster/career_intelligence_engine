@@ -14,17 +14,18 @@ It answers:
 
 ## 📊 Product Preview
 
-Dashboard
+![Dashboard](assets/dashboard.png)
 
 ---
 
 ## 🚀 Start Here (Run in 60 seconds)
 
-bash pip install -r requirements.txt  python run_pipeline.py --greenhouse stripe  streamlit run app/streamlit_app.py 
+```bash
+pip install -r requirements.txt
 
-Then open:  
-👉 http://localhost:8501
+python run_pipeline.py --greenhouse stripe
 
+streamlit run app/streamlit_app.py
 ---
 
 ## ⚡ Core Value
