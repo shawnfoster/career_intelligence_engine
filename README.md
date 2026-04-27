@@ -21,11 +21,17 @@ It answers:
 ## 🚀 Start Here (Run in 60 seconds)
 
 ```bash
+
 pip install -r requirements.txt
 
 python run_pipeline.py --greenhouse stripe
 
 streamlit run app/streamlit_app.py
+
+```
+
+👉 Then open: http://localhost:8501
+
 ---
 
 ## ⚡ Core Value
