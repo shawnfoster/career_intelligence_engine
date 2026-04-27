@@ -91,9 +91,7 @@ Career Intelligence Engine:
 
 ## 🏗️ System Architecture
 
-```text
 ingest → parse → enrich → score → classify job DNA → rank → dashboard
-'''
 
 ---
 
