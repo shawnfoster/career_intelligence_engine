@@ -2,7 +2,7 @@
 
 > Find the roles you are most likely to win — and understand exactly why.
 
-Career Intelligence Engine is a job-market decision system that ingests real job postings, scores alignment, classifies hiring intent, and generates positioning strategy.
+Career Intelligence Engine is a decision system that analyzes job opportunities, predicts hiring intent, and generates positioning strategy.
 
 It doesn’t just answer:
 > “Do I qualify?”
@@ -14,7 +14,16 @@ It answers:
 
 ## 📊 Product Preview
 
-Career Intelligence Engine Dashboard
+Dashboard
+
+---
+
+## 🚀 Start Here (Run in 60 seconds)
+
+bash pip install -r requirements.txt  python run_pipeline.py --greenhouse stripe  streamlit run app/streamlit_app.py 
+
+Then open:  
+👉 http://localhost:8501
 
 ---
 
@@ -71,7 +80,7 @@ This system:
 
 ## 🏗️ System Architecture
 
-text ingest → parse → enrich → score → classify job DNA → rank → dashboard 
+ingest → parse → enrich → score → classify job DNA → rank → dashboard
 
 ---
 
@@ -89,13 +98,7 @@ text ingest → parse → enrich → score → classify job DNA → rank → das
 
 ## 📁 Project Structure
 
-text career_intelligence_engine/ │ ├── assets/                # Screenshots for README ├── app/                   # Streamlit UI ├── data/                  # Raw + enriched job data (ignored in git) ├── prompts/               # Prompt templates ├── src/ │   ├── ingest.py │   ├── parser.py │   ├── scorer.py │   ├── job_dna.py │   ├── positioning.py │   ├── exporter.py │   └── utils.py │ ├── run_pipeline.py        # Main execution entrypoint ├── requirements.txt └── README.md 
-
----
-
-## 🚀 Run Locally
-
-bash # Install dependencies pip install -r requirements.txt  # Run data pipeline python run_pipeline.py --greenhouse stripe  # Launch UI streamlit run app/streamlit_app.py 
+career_intelligence_engine/ │ ├── assets/                # Screenshots for README ├── app/                   # Streamlit UI ├── data/                  # Raw + enriched job data (ignored in git) ├── prompts/               # Prompt templates ├── src/ │   ├── ingest.py │   ├── parser.py │   ├── scorer.py │   ├── job_dna.py │   ├── positioning.py │   ├── exporter.py │   └── utils.py │ ├── run_pipeline.py        # Main execution entrypoint ├── requirements.txt └── README.md
 
 ---
 
@@ -116,7 +119,7 @@ bash # Install dependencies pip install -r requirements.txt  # Run data pipeline
 - Machine learning-based hiring probability model  
 - Resume-to-role alignment scoring  
 - Automated cover letter generation  
-- Hosted live demo (public URL)  
+- Hosted live demo  
 
 ---
 
