@@ -1,5 +1,9 @@
 # 🧠 Career Intelligence Engine
 
+Career Intelligence Engine is a Python + Streamlit decision system that ingests real job postings, scores opportunity fit, classifies hiring intent, identifies wrong-hire risk, and generates role-specific positioning strategy.
+
+Built to replace blind job applications with structured opportunity intelligence.
+
 > Find the roles you are most likely to win — and understand exactly why.
 
 Career Intelligence Engine is a decision system that analyzes job opportunities, predicts hiring intent, and generates positioning strategy.
@@ -60,13 +64,13 @@ streamlit run app/streamlit_app.py
 
 ## 🎯 Example Insight
 
-Finance & Strategy – Finance Analytics Analyst @ Stripe
+**Finance & Strategy – Finance Analytics Analyst @ Stripe**
 
-- Hiring Intent: Decision-support analytics  
-- Operator Type: Analytical translator  
-- Wrong-Hire Risk: Hiring someone who can build reports but cannot explain what the numbers mean for business action  
+- **Hiring Intent:** Decision-support analytics  
+- **Operator Type:** Analytical translator  
+- **Wrong-Hire Risk:** Hiring someone who can build reports but cannot explain what the numbers mean for business action  
 
-Positioning Strategy:  
+**Positioning Strategy:**  
 > Position as a low-ramp operator who translates data into business decisions.
 
 ---
@@ -78,15 +82,16 @@ Most candidates:
 - rely on keyword matching  
 - fail to understand company context  
 
-This system:
-- surfaces real business needs
-- translates them into actionable positioning
+Career Intelligence Engine:
+- surfaces real business needs  
+- translates them into actionable positioning  
 - increases probability of conversion  
 
 ---
 
 ## 🏗️ System Architecture
 
+```text
 ingest → parse → enrich → score → classify job DNA → rank → dashboard
 
 ---
