@@ -109,9 +109,28 @@ ingest → parse → enrich → score → classify job DNA → rank → dashboar
 
 ## 📁 Project Structure
 
-career_intelligence_engine/ │ ├── assets/                # Screenshots for README ├── app/                   # Streamlit UI ├── data/                  # Raw + enriched job data (ignored in git) ├── prompts/               # Prompt templates ├── src/ │   ├── ingest.py │   ├── parser.py │   ├── scorer.py │   ├── job_dna.py │   ├── positioning.py │   ├── exporter.py │   └── utils.py │ ├── run_pipeline.py        # Main execution entrypoint ├── requirements.txt └── README.md
+## 📁 Project Structure
 
----
+```
+career_intelligence_engine/
+│
+├── assets/                # Screenshots for README
+├── app/                   # Streamlit UI
+├── data/                  # Raw + enriched job data (ignored in git)
+├── prompts/               # Prompt templates
+├── src/
+│   ├── ingest.py
+│   ├── parser.py
+│   ├── scorer.py
+│   ├── job_dna.py
+│   ├── positioning.py
+│   ├── exporter.py
+│   └── utils.py
+│
+├── run_pipeline.py        # Main execution entrypoint
+├── requirements.txt
+└── README.md
+```
 
 ## 📊 What the Dashboard Shows
 
