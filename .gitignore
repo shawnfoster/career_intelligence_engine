@@ -15,6 +15,7 @@ venv/
 data/raw_jobs/
 data/enriched_jobs/
 data/outputs/
+!data/sample_output.json
 
 # Catch any loose JSON files
 #*.json

@@ -15,12 +15,15 @@ st.set_page_config(
 
 
 DATA_PATH = Path("data/outputs/ranked_jobs.json")
+SAMPLE_PATH = Path("data/sample_output.json")
 
 
 def load_data() -> list[dict]:
-    if not DATA_PATH.exists():
-        return []
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    if DATA_PATH.exists():
+        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    if SAMPLE_PATH.exists():
+        return json.loads(SAMPLE_PATH.read_text(encoding="utf-8"))
+    return []
 
 
 def tier_badge(tier: str) -> str:
