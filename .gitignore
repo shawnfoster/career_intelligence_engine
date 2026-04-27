@@ -1,5 +1,26 @@
-data/
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env
+
+# Mac
 .DS_Store
+
+# Data outputs (optional but recommended)
+data/raw_jobs/
+data/enriched_jobs/
+data/outputs/
+
+# Catch any loose JSON files
+#*.json
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
